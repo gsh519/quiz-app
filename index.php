@@ -31,7 +31,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 
@@ -39,7 +39,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 
@@ -47,7 +47,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 
@@ -55,7 +55,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 
@@ -63,7 +63,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 
@@ -71,7 +71,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 
@@ -79,7 +79,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 
@@ -87,7 +87,7 @@
             <div class="list__question">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</div>
             <div class="list__des">
               <p class="list__des__date"><span>作成者名</span><span class="date">2021/8/17</span></p>
-              <p><a href="#" class="answer">回答する</a></p>
+              <p><a href="./nazonazo.php" class="answer">答える</a></p>
             </div>
           </li>
 

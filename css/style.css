@@ -215,6 +215,7 @@ main {
 
 .nazo-box__frame__answer .answer__toggle {
   display: block;
+  font-weight: bold;
 }
 
 .nazo-box__frame__answer .answer__txt {
