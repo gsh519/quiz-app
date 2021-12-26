@@ -6,6 +6,10 @@ main {
   color: #fff;
 }
 
+.fas {
+  margin-right: 5px;
+}
+
 .wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -80,10 +84,6 @@ main {
   border-radius: 15px;
 }
 
-.questions-list__flex .list a {
-  color: #000;
-}
-
 .questions-list__flex .list__question {
   border-bottom: 1px solid #ccc;
   padding: 20px 16px;
@@ -96,8 +96,30 @@ main {
 .questions-list__flex .list__des {
   display: flex;
   justify-content: space-between;
+  align-items: end;
   padding: 16px;
   color: #ccc;
+}
+
+.questions-list__flex .list__des__date {
+  text-align: left;
+}
+
+.questions-list__flex .list__des__date span {
+  display: block;
+}
+
+.questions-list__flex .list__des__date .date {
+  font-size: 8px;
+  margin-top: 6px;
+}
+
+.questions-list__flex .list__des .answer {
+  color: #a1a1ff;
+}
+
+.questions-list__flex .list__des .answer:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 539px) {
@@ -111,4 +133,93 @@ main {
     width: 100%;
     margin: 2% 0;
   }
+}
+
+.nazo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.nazo-box__frame {
+  background-color: #fff;
+  border-radius: 15px;
+  max-width: 580px;
+  width: 100%;
+  box-shadow: 0px 3px 5px 1px #888;
+}
+
+.nazo-box__frame__question {
+  padding: 30px;
+  color: #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 30px;
+  line-height: 1.8;
+  font-family: 'Hannotate SC',sans-serif;
+}
+
+.nazo-box__frame__des {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.nazo-box__frame__des p {
+  color: #ccc;
+}
+
+.nazo-box__frame__hint {
+  padding: 16px;
+}
+
+.nazo-box__frame__hint .hint {
+  border: 1px solid #ccc;
+  color: #a1a1ff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.nazo-box__frame__hint .hint:hover {
+  cursor: pointer;
+}
+
+.nazo-box__frame__hint .hint__toggle {
+  display: block;
+}
+
+.nazo-box__frame__hint .hint__txt {
+  color: #ccc;
+  font-size: 16px;
+  display: none;
+  margin-top: 8px;
+}
+
+.nazo-box__frame__answer {
+  padding: 16px;
+}
+
+.nazo-box__frame__answer .answer {
+  border: 1px solid #ccc;
+  color: #ff859a;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.nazo-box__frame__answer .answer:hover {
+  cursor: pointer;
+}
+
+.nazo-box__frame__answer .answer__toggle {
+  display: block;
+}
+
+.nazo-box__frame__answer .answer__txt {
+  color: #ccc;
+  font-size: 16px;
+  display: none;
+  margin-top: 8px;
 }
