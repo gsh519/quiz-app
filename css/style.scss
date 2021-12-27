@@ -8,6 +8,26 @@ main {
   color: #fff;
 }
 
+::placeholder {
+  color: #bab6b6;
+}
+
+.input {
+  background-color: #ebebeb !important;
+  display: block;
+  &:focus-visible {
+    outline: 2px solid rgb(161, 161, 255);
+  }
+}
+
+textarea {
+  background-color: #ebebeb !important;
+  display: block;
+  &:focus-visible {
+    outline: 2px solid rgb(161, 161, 255);
+  }
+}
+
 .fas {
   margin-right: 5px;
 }
@@ -134,6 +154,17 @@ main {
   }
 }
 
+footer {
+  text-align: center;
+  background-color: rgb(66, 66, 66);
+  padding: 8px 0;
+  p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
 //投稿個別ページのcss
 .nazo-box {
   display: flex;
@@ -210,5 +241,78 @@ main {
         }
       }
     }
+  }
+}
+
+//なぞなぞ作成ページcss
+.make-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.make-area {
+  background-color: #fff;
+  box-shadow: 0px 3px 5px 1px #888;
+  border-radius: 15px;
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  color: #757575;
+  padding: 45px 58px;
+  margin-bottom: 30px;
+
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    border-radius: 15px;
+    color: #757575;
+    padding: 16px;
+  }
+
+  .input {
+    width: 100%;
+    border-radius: 15px;
+    color: #757575;
+    height: 45px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .submit {
+    display: flex;
+    justify-content: end;
+  }
+
+  #btn_submit {
+    text-align: right;
+    margin-top: 20px;
+    display: block;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgb(161, 161, 255);
+    background-color: #fff;
+    color: rgb(161, 161, 255);
+    padding: 10px;
+    &:hover {
+      color: #fff;
+      background-color: rgb(161, 161, 255);
+    }
+  }
+
+  .question {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 30px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .make-area {
+    padding: 16px;
   }
 }

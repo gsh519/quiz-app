@@ -19,7 +19,7 @@
         <p class="hero__note">こたえて遊ぶ ✕ 作って遊ぶ</p>
         <div class="hero__flex">
           <a class="hero__flex__link" href="#"><i class="fas fa-check"></i>なぞなぞを答える</a>
-          <a class="hero__flex__link" href="./nazonazo/make.php"><i class="fas fa-pen"></i>なぞなぞを作る</a>
+          <a class="hero__flex__link" href="./make.php"><i class="fas fa-pen"></i>なぞなぞを作る</a>
         </div>
       </div>
 
@@ -95,6 +95,9 @@
       </div>
     </div>
   </main>
+  <footer>
+    <p>@gsh</p>
+  </footer>
 </body>
 
 </html>
